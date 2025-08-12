@@ -1,0 +1,7 @@
+D:\Incubation\Incubation_DotNet\bin\Debug\Incubation_DotNet.exe.config
+D:\Incubation\Incubation_DotNet\bin\Debug\Incubation_DotNet.exe
+D:\Incubation\Incubation_DotNet\bin\Debug\Incubation_DotNet.pdb
+D:\Incubation\Incubation_DotNet\obj\Debug\Incubation_DotNet.csproj.AssemblyReference.cache
+D:\Incubation\Incubation_DotNet\obj\Debug\Incubation_DotNet.csproj.CoreCompileInputs.cache
+D:\Incubation\Incubation_DotNet\obj\Debug\Incubation_DotNet.exe
+D:\Incubation\Incubation_DotNet\obj\Debug\Incubation_DotNet.pdb
