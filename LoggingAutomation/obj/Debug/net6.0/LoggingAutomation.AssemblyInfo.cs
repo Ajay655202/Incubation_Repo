@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoggingAutomation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9cab632a8bf2b8a101d03ed9c5d2a6b13dd4c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoggingAutomation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoggingAutomation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

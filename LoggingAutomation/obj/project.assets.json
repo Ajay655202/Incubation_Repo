@@ -2198,11 +2198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Incubation\\LoggingAutomation\\LoggingAutomation.csproj",
+      "projectUniqueName": "D:\\Incubation_Repo\\LoggingAutomation\\LoggingAutomation.csproj",
       "projectName": "LoggingAutomation",
-      "projectPath": "D:\\Incubation\\LoggingAutomation\\LoggingAutomation.csproj",
+      "projectPath": "D:\\Incubation_Repo\\LoggingAutomation\\LoggingAutomation.csproj",
       "packagesPath": "C:\\Users\\radam_ajay\\.nuget\\packages\\",
-      "outputPath": "D:\\Incubation\\LoggingAutomation\\obj\\",
+      "outputPath": "D:\\Incubation_Repo\\LoggingAutomation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radam_ajay\\AppData\\Roaming\\NuGet\\NuGet.Config",
