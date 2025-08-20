@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SOLUTION_NAME = "Incubation_DotNet.sln"
-        TEST_DLL = "D:\Incubation_Repo\LoggingAutomation\bin\Debug\net6.0\LoggingAutomation.dll"
+        TEST_DLL = "D:\\Incubation_Repo\\LoggingAutomation\\bin\\Debug\\net6.0\\LoggingAutomation.dll"
         GIT_REPO = "https://github.com/Ajay655202/Incubation_Repo.git"
     }
 
