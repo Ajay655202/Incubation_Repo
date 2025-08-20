@@ -28,6 +28,7 @@ namespace LoggingAutomation
         }
 
         [Test]
+        [Category("Regression")]
         public void CompletePurchaseFlow()
         {
             try
