@@ -17,3 +17,4 @@ obj/
 # Temporary files
 *.tmp
 *.temp
+.vs/
