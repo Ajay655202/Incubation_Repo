@@ -2,9 +2,9 @@ pipeline {
     agent { label 'windows' }
 
     environment {
-        SOLUTION_NAME = "MySolution.sln"
-        TEST_DLL = "MyApp.Tests\\bin\\Debug\\MyApp.Tests.dll"
-        GIT_REPO = "https://github.com/epam/your-repo.git"
+        SOLUTION_NAME = "Incubation_DotNet.sln"
+        TEST_DLL = "D:\Incubation_Repo\LoggingAutomation\bin\Debug\net6.0\LoggingAutomation.dll"
+        GIT_REPO = "https://github.com/Ajay655202/Incubation_Repo.git"
     }
 
     stages {
@@ -22,13 +22,13 @@ pipeline {
 
         stage('Build Solution') {
             steps {
-                bat "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe\" ${SOLUTION_NAME} /p:Configuration=Debug"
+                bat "\"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe\" ${SOLUTION_NAME} /p:Configuration=Debug"
             }
         }
 
         stage('Run Regression Tests') {
             steps {
-                bat "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow\\vstest.console.exe\" ${TEST_DLL} --TestCaseFilter:TestCategory=Regression /logger:trx"
+                bat "\"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe\" ${TEST_DLL} --TestCaseFilter:TestCategory=Regression /logger:trx"
             }
         }
 

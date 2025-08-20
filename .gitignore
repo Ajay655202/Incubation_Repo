@@ -1,6 +1,6 @@
 # Build results
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
 
 # Visual Studio cache/options directory
 .vs/
@@ -11,8 +11,14 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# Build logs
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
 *.log
+documentlayout.json
+documentlayout.backup.json
 
 # Test results
 TestResult*/
@@ -20,9 +26,12 @@ TestResult*/
 *.coverage
 *.coveragexml
 
-# Other VS files
-*.vscode/
-
-# NuGet packages
+# NuGet
 *.nupkg
 packages/
+
+# Others
+*.vscode/
+
+# Visual Studio cache files
+*.dtbcache.v2
