@@ -1,20 +1,28 @@
-# Build folders
+# Build results
 bin/
 obj/
 
-# Visual Studio folder
+# Visual Studio cache/options directory
 .vs/
 
 # User-specific files
-*.user
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-# Logs
+# Build logs
 *.log
 
-# Temporary files
-*.tmp
-*.temp
-.vs/
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Other VS files
+*.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
