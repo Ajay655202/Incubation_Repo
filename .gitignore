@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build logs
+*.log
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Other VS files
+*.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
